@@ -1,0 +1,8 @@
+<launch>
+
+<node pkg="wind" type="wind_trig_node" name="wind_trig_node" output="screen"/>
+	<param name="sample_rate" type="int" value="200" />
+	<param name="device_address" type="str" value="/dev/ttyUSB0"/>
+
+
+</launch>

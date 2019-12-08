@@ -1,0 +1,6 @@
+<launch>
+
+<node pkg="wind" type="wind_trig_node" name="wind_trig_node" output="screen"/>
+<param name="use_sim_time" value="true" />
+
+</launch>
